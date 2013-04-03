@@ -247,6 +247,11 @@
       <!-- hadoop -->
       <dependency>
         <groupId>org.apache.hadoop</groupId>
+        <artifactId>hadoop-core</artifactId>
+        <version>${apache.hadoop-mr1.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.hadoop</groupId>
         <artifactId>hadoop-common</artifactId>
         <version>${apache.hadoop.version}</version>
       </dependency>
